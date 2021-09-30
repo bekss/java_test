@@ -3,13 +3,20 @@ package beks;
 public class Main {
 
     public static void main(String[] args) {
-        int num1 = 6;
-        int num = 8;
-        if(num1 < num && num1<num ){
-            System.out.println("First number bigger then second");
-        }
-        else {
-            System.out.println("First number not bigger then second");
+        int num = 10;
+        switch (num){
+            case 1:
+                System.out.printf("число %d", num);
+                break;
+            case 8:
+                System.out.printf(" число %d ", num);
+                num++;
+                break;
+            case 9:
+                System.out.printf(" число %d ", num);
+                break;
+            default:
+                System.out.println(" Число не равно 1,8,9 ");
         }
     }
 }
