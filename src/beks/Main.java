@@ -3,10 +3,14 @@ package beks;
 public class Main {
 
     public static void main(String[] args) {
-
-        double a = 56.3321;
-        int b = (int)Math.round(a);
-        System.out.println(b);
+        int num1 = 6;
+        int num = 8;
+        if(num1 < num && num1<num ){
+            System.out.println("First number bigger then second");
+        }
+        else {
+            System.out.println("First number not bigger then second");
+        }
     }
 }
 
