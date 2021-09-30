@@ -3,8 +3,10 @@ package beks;
 public class Main {
 
     public static void main(String[] args) {
-        int a = 100;
-        byte b = (byte) a;
+
+        double a = 56.3321;
+        int b = (int)Math.round(a);
         System.out.println(b);
     }
 }
+
