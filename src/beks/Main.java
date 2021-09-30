@@ -3,20 +3,13 @@ package beks;
 public class Main {
 
     public static void main(String[] args) {
-        int num = 10;
-        switch (num){
-            case 1:
-                System.out.printf("число %d", num);
-                break;
-            case 8:
-                System.out.printf(" число %d ", num);
-                num++;
-                break;
-            case 9:
-                System.out.printf(" число %d ", num);
-                break;
-            default:
-                System.out.println(" Число не равно 1,8,9 ");
+        int numm [];
+        numm = new int[2];
+
+        int [] num = {1,2,3};
+        int len = num.length;
+        for (int i=0;i<len;i++) {
+            System.out.println(num[i]);
         }
     }
 }
